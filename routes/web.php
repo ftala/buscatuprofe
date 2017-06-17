@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/lala', function () {
     return view('index');
 });
 
@@ -31,9 +31,6 @@ Route::get('usuario/{user}', function ($id) {
 
 	$user = DB::table('usuario')->find($id);
 
-
-
-
-   return view('usuarios.usuario_1', compact('user'));
+    return view('usuarios.usuario_1', compact('user'));
 
 });

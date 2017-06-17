@@ -29,8 +29,12 @@ Route::get('about', function () {
 
 Route::get('usuario/{user}', function ($id) {
 
-	$user = DB::table('usuario')->find($id);
+	$user = \App\User::find($id);
 
     return view('usuarios.usuario_1', compact('user'));
 
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

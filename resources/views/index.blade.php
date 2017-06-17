@@ -58,16 +58,14 @@
     <div id="header">
         <ul class="nav">
             <li><font size="5"><a href="" >Inicio</a></font></li>
-            
-            <li><font size="5"><a href="" >Cuenta</a></font>
-                <ul>
-                    <li><font size="4" ><a href="" >Acceso Profesores</a></font></li>
-                    <li><font size="4"><a href="" >Acceso Alumno</a></font></li>
-                    <li><font size="4"><a href="" >Usuario nuevo</a></font></li>
-                
-                
-                </ul>
-            </li>
+                    @if (Auth::check())
+                <li><a href="{{ url('/home') }}">Home</a></li>
+                    @else
+                <li><a href="{{ url('/login') }}">Login</a></li>
+                <li><a href="{{ url('/register') }}">Register</a></li>
+                    @endif
+
+
             
             <li><font size="5" ><a href="" >Contáctanos</a></font></li>
             

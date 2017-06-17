@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/lala', function () {
+Route::get('/', function () {
     return view('index');
 });
 

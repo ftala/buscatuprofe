@@ -21,7 +21,7 @@ Route::get('registro', function () {
 
 });
 
-Route::get('about/asdfgfdsaASDF', function () {
+Route::get('about', function () {
 
     return view('about');
 

@@ -1,0 +1,14 @@
+@font-face{
+    font-family:droid-sans;
+    src:url(droid-sans/DroidSans-Bold.ttf);
+}
+
+ul{
+    font-family: droid-sans;
+}
+h2{
+    font-family:droid-sans;
+}
+h3{
+    font-family:droid-sans;
+}

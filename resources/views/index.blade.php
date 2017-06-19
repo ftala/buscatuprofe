@@ -10,7 +10,7 @@
         
         *{
             padding:0px;
-            margin 0px;  
+            margin:0px;
         }
         #header{
             
@@ -67,7 +67,7 @@
 
 
             
-            <li><font size="5" ><a href="" >Contáctanos</a></font></li>
+            <li><font size="5" ><a href="" >Contáctanoss</a></font></li>
             
             <li><font size="5" ><a href="" >¿Quienes Somos?</a></font></li>
             <li><font size="5" ><a href="" >Comparte en redes sociales</a></font></li>

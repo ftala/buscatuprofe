@@ -95,7 +95,7 @@
                     </font>
                     </h2>
 
-                    <h3><font size="5"><center><a href="" style="text-decoration:none;color:rgb(200,203,207)" >¡Regiatrate ya!</a></center></font></h3>
+                    <h3><font size="5"><center><a href="{{ url('/register') }}" style="text-decoration:none;color:rgb(200,203,207)" >¡Registrate ya!</a></center></font></h3>
 
                 </pre>
                 

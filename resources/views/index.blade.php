@@ -9,8 +9,8 @@
     	}
         
         *{
-            padding:0px;
-            margin 0px;  
+            padding:0;
+            margin:0;
         }
         #header{
             
@@ -49,7 +49,7 @@
         	font-family: verdana;
         }
         h2{
-        	font-family: tahoma;
+        	font-family: verdana;
         }
     </style>
 </head>
@@ -61,8 +61,8 @@
                     @if (Auth::check())
                 <li><a href="{{ url('/home') }}">Home</a></li>
                     @else
-                <li><a href="{{ url('/login') }}">Login</a></li>
-                <li><a href="{{ url('/register') }}">Register</a></li>
+                <li><font size="5" ><a href="{{ url('/login') }}">Login</a></font></li>
+                <li><font size="5" ><a href="{{ url('/register') }}">Register</a></font></li>
                     @endif
 
 
@@ -95,7 +95,7 @@
                     </font>
                     </h2>
 
-                    <h3><font size="5"><center><a href="" style="text-decoration:none;color:rgb(200,203,207)" >¡Regiatrate ya!</a></center></font></h3>
+                    <h3><font size="5"><center><a href="" style="text-decoration:none;color:rgb(200,203,207)" >¡Registrate ya!</a></center></font></h3>
 
                 </pre>
                 

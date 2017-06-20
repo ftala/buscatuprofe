@@ -58,26 +58,24 @@
 	</head>
 	<body style="background-color:rgb(20,93,133);">
 		
-		 <div id="header">
-        	<ul class="nav">
-            	<li><font size="5"><a href="" >Inicio</a></font></li>
+       <div id="header">
+        <ul class="nav">
+            <li><font size="5"><a href="{{ url('/') }}" >Inicio</a></font></li>
+                    @if (Auth::check())
+                <li><a href="{{ url('/home') }}">Home</a></li>
+                    @else
+                <li><font size= "5" face="tahoma"><a href="{{ url('/login') }}">Login</a></font></li>
+                <li><font size= "5" face="tahoma"><a href="{{ url('/register') }}">Register</a></font></li>
+                    @endif
+
+
             
-            	<li><font size="5"><a href="" >Cuenta</a></font>
-                	<ul>
-                    	<li><font size="4" ><a href="" >Acceso Profesores</a></font></li>
-                    	<li><font size="4"><a href="" >Acceso Alumno</a></font></li>
-                    	<li><font size="4"><a href="" >Usuario nuevo</a></font></li>
-                
-                
-                	</ul>
-           	    </li>
+            <li><font size="5" ><a href="{{ url('/contact') }}" >Contáctanos</a></font></li>
             
-            	<li><font size="5" ><a href="" >Contáctanos</a></font></li>
-            
-            	<li><font size="5" ><a href="" >¿Quienes Somos?</a></font></li>
-            	<li><font size="5" ><a href="" >Comparte en redes sociales</a></font></li>
+            <li><font size="5" ><a href="{{ url('/about') }}" >¿Quienes Somos?</a></font></li>
+            <li><font size="5" ><a href="" >Comparte en redes sociales</a></font></li>
         
-        	</ul>
+        </ul>
     
         </div>
 

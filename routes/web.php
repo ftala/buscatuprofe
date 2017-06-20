@@ -29,9 +29,7 @@ Route::get('about', function () {
 
 Route::get('usuario/{user}', function ($id) {
 
-	$user = \App\User::find($id);
-
-    return view('usuarios.usuario_1', compact('user'));
+	return view('usuario');
 
 });
 

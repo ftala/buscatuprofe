@@ -9,6 +9,10 @@
 				background-color: rgb(20,93,133);
 				color: rgb(200,203,207);
 			}
+            h1{
+                font-family: verdana;
+                font-size: 5;
+            }
 
 		 	*{
             	padding:0px;
@@ -71,41 +75,8 @@
         	</ul>
     
         </div>
-
-        <pre>
-
-
-
-
-
-
-
-        	<table>
-        		<ul>
-        			<li>
-        				<font size="4" face="verdana">
-        	<li>Los datos del usuario son:</li>
-        				</font>
-        			</li>
-        			<li>
-        				<font size="4" face="verdana">
-
-        	@foreach ($usuario as $user)
-
-        		<li>{{ $user->nombre }}</li>
-
-        	@endforeach
-
-        
-        				</font>
-
-        			</li>
-
-        		</ul>
-
-        	</table>
-    	</pre>
-
+        <h1>hola men</h1>
+  
 
 
 	</body>

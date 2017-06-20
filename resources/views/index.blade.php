@@ -10,7 +10,6 @@
 
         *{
             padding:0;
-            margin:0;
         }
         #header{
             width: 1072px;

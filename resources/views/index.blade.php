@@ -11,6 +11,13 @@
         *{
             padding:0;
         }
+        hr{
+            border: none;
+            height: 200px;
+            width: 100%;
+            margin-left: 0;
+            background-color: black;
+        }
         #header{
             width: 1072px;
             margin: 0 auto;
@@ -20,8 +27,8 @@
             list-style:none;
         }
         .nav li a{
-            background-color: rgb(20,93,133);
-            color:rgb(200,203,207);
+            background-color: #000000;
+            color: #ffffff;
             text-decoration: none;
             padding:10px 20px;
             display:inline;
@@ -42,7 +49,7 @@
             display: inline;
         }
         img{
-            border:rgb(200,203,207) 4px solid;
+            border:none;
         }
         h3{
         	font-family: verdana;
@@ -54,6 +61,7 @@
 </head>
 <body style="background-color:rgb(20,93,133);">
 
+    <hr>
     <div id="header">
         <ul class="nav">
             <li><font size="5"><a href="{{ url('/') }}" >Inicio</a></font></li>

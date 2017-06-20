@@ -8,7 +8,7 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-                    You are logged in!
+                    <a href="{{ url('/usuario/') }}">Ir a mi perfil</a>
                 </div>
             </div>
         </div>

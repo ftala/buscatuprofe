@@ -55,7 +55,6 @@
 </head>
 <body style="background-color:rgb(20,93,133);">
 
-    <hr>
     <div id="header">
         <ul class="nav">
             <li><font size="5"><a href="{{ url('/') }}" >Inicio</a></font></li>

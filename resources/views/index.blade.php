@@ -84,7 +84,7 @@
 
 
 
-             <IMG SRC="https://c1.staticflickr.com/5/4237/34454517884_c3fe1a44af_b.jpg" WIDTH=400 HEIGHT=400 ALT="Obra de K. Haring">
+             <IMG SRC="https://c1.staticflickr.com/5/4237/34454517884_c3fe1a44af_b.jpg" WIDTH=400 HEIGHT=400 ALT="BuscaTuProfe!">
                         </pre>
                          
 

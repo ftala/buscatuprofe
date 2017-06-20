@@ -55,7 +55,6 @@
 </head>
 <body style="background-color:rgb(20,93,133);">
 
-    <hr>
     <div id="header">
         <ul class="nav">
             <li><font size="5"><a href="{{ url('/') }}" >Inicio</a></font></li>
@@ -85,7 +84,7 @@
 
 
 
-             <IMG SRC="https://c1.staticflickr.com/5/4237/34454517884_c3fe1a44af_b.jpg" WIDTH=400 HEIGHT=400 ALT="Obra de K. Haring">
+             <IMG SRC="https://c1.staticflickr.com/5/4237/34454517884_c3fe1a44af_b.jpg" WIDTH=400 HEIGHT=400 ALT="BuscaTuProfe!">
                         </pre>
                          
 

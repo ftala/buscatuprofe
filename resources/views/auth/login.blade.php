@@ -10,7 +10,7 @@
 
     </style>
 </head>
-<body>
+<body style="background-color:rgb(20,93,133);">
 @extends('layouts.app')
 
 @section('content')

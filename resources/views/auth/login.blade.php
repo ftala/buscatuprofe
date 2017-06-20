@@ -1,3 +1,12 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>Login</title>
+    <style type="text/css">
+    </style>
+</head>
+<body>
 @extends('layouts.app')
 
 @section('content')
@@ -5,7 +14,7 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">Login</div>
+                <div class="panel-heading">Accede a BuscaTuProfe!</div>
                 <div class="panel-body">
                     <form class="form-horizontal" role="form" method="POST" action="{{ route('login') }}">
                         {{ csrf_field() }}
@@ -55,7 +64,7 @@
                                 </button>
 
                                 <a class="btn btn-link" href="{{ route('password.request') }}">
-                                    Forgot Your Password?
+                                    Olvidaste tu contraseña?
                                 </a>
                             </div>
                         </div>
@@ -66,3 +75,5 @@
     </div>
 </div>
 @endsection
+</body>
+</html>

@@ -2,15 +2,15 @@
 <html>
 <head>
     <title>BuscaTuProfe!</title>
-    <link rel="stylesheet" type="text/css" href="Fuentes/fuentes.css"/>
     <style type="text/css">
     	html, body{
-    		font-family: verdana;
+    		font-family: tahoma;
+            color: rgb(200,203,207);
     	}
         
         *{
-            padding:0;
-            margin:0;
+            padding:0px;
+            margin 0px;  
         }
         #header{
             
@@ -49,7 +49,7 @@
         	font-family: verdana;
         }
         h2{
-        	font-family: verdana;
+        	font-family: tahoma;
         }
     </style>
 </head>
@@ -61,8 +61,8 @@
                     @if (Auth::check())
                 <li><a href="{{ url('/home') }}">Home</a></li>
                     @else
-                <li><font size="5" ><a href="{{ url('/login') }}">Login</a></font></li>
-                <li><font size="5" ><a href="{{ url('/register') }}">Register</a></font></li>
+                <li><font size= "5" face="tahoma"><a href="{{ url('/login') }}">Login</a></font></li>
+                <li><font size= "5" face="tahoma"><a href="{{ url('/register') }}">Register</a></font></li>
                     @endif
 
 
@@ -75,34 +75,32 @@
         </ul>
     
         </div>
-        <table> 
-            <tr>
-            <td>
-                <pre>
-             <pre>  
-                <img src="https://c1.staticflickr.com/5/4237/34454517884_c3fe1a44af_n.jpg">
-            </pre>
-                </pre>
-             </td>
-            <td>
-                <pre>
-                    <h2 style="color:rgb(200,203,207)">
-                    <font size="10">        
-                    
-      ¡Bienvenidos al portal 
-      de profesores
-      particulares de la UAI!
-                    </font>
-                    </h2>
+            <table>
+                <tr>
+                    <td>
+                        <pre>
 
-                    <h3><font size="5"><center><a href="" style="text-decoration:none;color:rgb(200,203,207)" >¡Registrate ya!</a></center></font></h3>
 
-                </pre>
+
+
+
+             <IMG SRC="https://c1.staticflickr.com/5/4237/34454517884_c3fe1a44af_b.jpg" WIDTH=400 HEIGHT=400 ALT="Obra de K. Haring">
+                        </pre>
+                         
+
+                    </td>
+                    <td><font size="7" face="verdana">Bienvenidos al portal de Profesores particulares de la UAI!</font></td>
+                </tr>
+               
+
                 
-            </td>
-            </tr>  
-    
-        </table>
+            </table>
+
+        </pre>
+        
+
+
+
    
 
 </body>

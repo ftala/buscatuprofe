@@ -3,7 +3,11 @@
 <html>
 <head>
     <title>Login</title>
-    <style type="text/css">
+    <style type="text/css">{
+        font-family: tahoma;
+        color: rgb(200,203,207);
+        }
+
     </style>
 </head>
 <body>
@@ -51,7 +55,7 @@
                             <div class="col-md-6 col-md-offset-4">
                                 <div class="checkbox">
                                     <label>
-                                        <input type="checkbox" name="remember" {{ old('remember') ? 'checked' : '' }}> Remember Me
+                                        <input type="checkbox" name="remember" {{ old('remember') ? 'checked' : '' }}> Recuérdame
                                     </label>
                                 </div>
                             </div>
@@ -60,7 +64,7 @@
                         <div class="form-group">
                             <div class="col-md-8 col-md-offset-4">
                                 <button type="submit" class="btn btn-primary">
-                                    Login
+                                    Ingreso
                                 </button>
 
                                 <a class="btn btn-link" href="{{ route('password.request') }}">

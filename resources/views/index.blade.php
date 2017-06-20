@@ -11,13 +11,7 @@
         *{
             padding:0;
         }
-        hr{
-            border: none;
-            height: 200px;
-            width: 100%;
-            margin-left: 0;
-            background-color: black;
-        }
+
         #header{
             width: 1072px;
             margin: 0 auto;
@@ -27,8 +21,8 @@
             list-style:none;
         }
         .nav li a{
-            background-color: #000000;
-            color: #ffffff;
+            background-color: rgb(20,93,133);
+            color: rgb(200,203,207);
             text-decoration: none;
             padding:10px 20px;
             display:inline;

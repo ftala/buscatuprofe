@@ -57,7 +57,7 @@
 
     <div id="header">
         <ul class="nav">
-            <li><font size="5"><a href="" >Inicio</a></font></li>
+            <li><font size="5"><a href="{{ url('/') }}" >Inicio</a></font></li>
                     @if (Auth::check())
                 <li><a href="{{ url('/home') }}">Home</a></li>
                     @else
@@ -69,7 +69,7 @@
             
             <li><font size="5" ><a href="" >Contáctanos</a></font></li>
             
-            <li><font size="5" ><a href="" >¿Quienes Somos?</a></font></li>
+            <li><font size="5" ><a href="{{ url('/about') }}" >¿Quienes Somos?</a></font></li>
             <li><font size="5" ><a href="" >Comparte en redes sociales</a></font></li>
         
         </ul>

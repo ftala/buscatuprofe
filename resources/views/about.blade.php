@@ -70,7 +70,7 @@
 
 
             
-            <li><font size="5" ><a href="" >Contáctanos</a></font></li>
+            <li><font size="5" ><a href="{{ url('/contact') }}" >Contáctanos</a></font></li>
             
             <li><font size="5" ><a href="{{ url('/about') }}" >¿Quienes Somos?</a></font></li>
             <li><font size="5" ><a href="" >Comparte en redes sociales</a></font></li>

@@ -4,19 +4,19 @@
     <title>BuscaTuProfe!</title>
     <style type="text/css">
     	html, body{
-    		font-family: tahoma;
+            font-family: tahoma;
             color: rgb(200,203,207);
     	}
-        
+
         *{
-            padding:0px;
-            margin 0px;  
+            padding:0;
+            margin:0;
         }
         #header{
-            
-            margin:auto;
+            width: 1072px;
+            margin: 0 auto;
         }
-        
+
         ul,ol{
             list-style:none;
         }
@@ -25,22 +25,22 @@
             color:rgb(200,203,207);
             text-decoration: none;
             padding:10px 20px;
-            display:block;
+            display:inline;
         }
         .nav li a:hover{
             background-color:rgb(0,166,242);
-            
+
         }
         .nav > li{
             float:left;
         }
         .nav li ul{
-            display:none;
+            display:inline;
             position: absolute;
             min-width: 140px;
         }
         .nav li:hover > ul{
-            display: block;
+            display: inline;
         }
         img{
             border:rgb(200,203,207) 4px solid;
@@ -61,8 +61,8 @@
                     @if (Auth::check())
                 <li><a href="{{ url('/home') }}">Home</a></li>
                     @else
-                <li><font size= "5" face="tahoma"><a href="{{ url('/login') }}">Login</a></font></li>
-                <li><font size= "5" face="tahoma"><a href="{{ url('/register') }}">Register</a></font></li>
+                <li><font size= "5" face="tahoma"><a href="{{ url('/login') }}">Ingreso</a></font></li>
+                <li><font size= "5" face="tahoma"><a href="{{ url('/register') }}">Registro</a></font></li>
                     @endif
 
 

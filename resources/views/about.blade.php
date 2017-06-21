@@ -99,10 +99,12 @@
               </font>
         	</h1>
         	<h2>
-      			<a href="register" style="text-decoration:none;color:rgb(200,203,207)">
-      	<center>Registrate Aquí!</center>
+      			<a href="{{ url('/register') }}" style="text-decoration:none;color:rgb(200,203,207)">
+
+      	       <center>Registrate Aquí!</center>
 
       			</a>
+            
         	</h2>
       
         </pre>

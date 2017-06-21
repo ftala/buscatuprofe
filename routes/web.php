@@ -27,19 +27,22 @@ Route::get('about', function () {
 
 });
 
-Route::get('usuario/{user}', function ($id) {
+Route::get('usuario/{user}', function($id) {
 
-	$user=DB::table('users')->find($id);
+		$user=DB::table('users')->find($id);
 
-	return view('usuario', compact('user'));
+		return view('usuario', compact('user'));
 
 });
+
+
 
 Route::get('contact', function () {
 
 	return view('contact');
 
 });
+
 
 Auth::routes();
 

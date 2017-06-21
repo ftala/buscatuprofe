@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/ñklñlkñ', function () {
+Route::get('/', function () {
     return view('index');
 });
 

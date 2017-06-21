@@ -20,7 +20,7 @@
 			}
 			*{
             	padding:0px;
-            	margin 0px;  
+            	margin:0px;
         	 }
         	
         	#header{
@@ -99,7 +99,7 @@
               </font>
         	</h1>
         	<h2>
-      			<a href="" style="text-decoration:none;color:rgb(200,203,207)">
+      			<a href="register" style="text-decoration:none;color:rgb(200,203,207)">
       	<center>Registrate Aquí!</center>
 
       			</a>

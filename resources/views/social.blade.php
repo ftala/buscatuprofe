@@ -44,11 +44,12 @@
 
         .fb-page{
             position: absolute;
-            left: 0;
-            top: 50%;
-            width: 100%;
-            font-size: 18px;
-            text-align: center;
+            left: 100px;
+        }
+
+        .twitter-timeline{
+            position: absolute;
+            width: 50% !important;
         }
     </style>
 </head>
@@ -87,6 +88,6 @@
     <div class="fb-page" data-href="https://www.facebook.com/Buscatuprofe-822721104559924/" data-tabs="timeline" data-width="500" data-height="250" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
     <blockquote cite="https://www.facebook.com/Buscatuprofe-822721104559924/" class="fb-xfbml-parse-ignore">
         <a href="https://www.facebook.com/Buscatuprofe-822721104559924/">Buscatuprofe</a></blockquote></div>
-</pre>
+</pre><a class="twitter-timeline" href="https://twitter.com/BuscaTuProfe">Tweets by TwitterDev</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>
 </html>

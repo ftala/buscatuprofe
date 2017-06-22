@@ -12,7 +12,9 @@
 */
 
 Route::get('/', function () {
+
     return view('index');
+
 });
 
 Route::get('registro', function () {
@@ -35,11 +37,15 @@ Route::get('usuario/{user}', function($id) {
 
 });
 
-
-
 Route::get('contact', function () {
 
 	return view('contact');
+
+});
+
+Route::get('social', function () {
+
+    return view('social');
 
 });
 

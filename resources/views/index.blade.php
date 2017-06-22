@@ -59,22 +59,16 @@
         <ul class="nav">
             <li><font size="5"><a href="{{ url('/') }}" >Inicio</a></font></li>
                     @if (Auth::check())
-                <li><a href="{{ url('/home') }}">Home</a></li>
+                <li><font size= "5" face="tahoma"><a href="{{ url('/home') }}">Cerrar Sesión</a></font>/li>
                     @else
                 <li><font size= "5" face="tahoma"><a href="{{ url('/login') }}">Ingreso</a></font></li>
                 <li><font size= "5" face="tahoma"><a href="{{ url('/register') }}">Registro</a></font></li>
                     @endif
-
-
-            
-            <li><font size="5" ><a href="{{ url('/contact') }}" >Contáctanos</a></font></li>
-            
-            <li><font size="5" ><a href="{{ url('/about') }}" >¿Quienes Somos?</a></font></li>
-            <li><font size="5" ><a href="" >Comparte en redes sociales</a></font></li>
-        
+                <li><font size="5" ><a href="{{ url('/contact') }}" >Contáctanos</a></font></li>
+                <li><font size="5" ><a href="{{ url('/about') }}" >¿Quienes Somos?</a></font></li>
+                <li><font size="5" ><a href="{{ url('/social') }}" >Comparte en redes sociales</a></font></li>
         </ul>
-    
-        </div>
+    </div>
             <table>
                 <tr>
                     <td>
@@ -84,7 +78,7 @@
 
 
 
-             <IMG SRC="https://c1.staticflickr.com/5/4237/34454517884_c3fe1a44af_b.jpg" WIDTH=400 HEIGHT=400 ALT="BuscaTuProfe!">
+             <IMG SRC="https://preview.ibb.co/jvbO3Q/Busca_Tu_Profe_Logo.png" WIDTH=400 HEIGHT=400 ALT="BuscaTuProfe!">
                         </pre>
                          
 

@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<title>Contacto</title>
+	<title>BuscaTuProfe!</title>
     <style type="text/css">
     	html, body{
             font-family: tahoma;

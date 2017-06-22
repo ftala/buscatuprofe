@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 	<head>
-		<title>¿Quienes Somos?</title>
+		<title>BuscaTuProfe!</title>
 		<style type="text/css">
 
 			html, body{

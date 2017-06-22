@@ -43,7 +43,12 @@
         }
 
         .fb-page{
-
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            font-size: 18px;
+            text-align: center;
         }
     </style>
 </head>
@@ -62,7 +67,7 @@
     <ul class="nav">
         <li><font size="5"><a href="{{ url('/') }}" >Inicio</a></font></li>
         @if (Auth::check())
-            <li><font size= "5" face="tahoma"><a href="{{ url('/home') }}">Cerrar Sesión</a></font>/li>
+            <li><font size= "5" face="tahoma"><a href="{{ url('/home') }}">Cerrar Sesión</a></font></li>
         @else
             <li><font size= "5" face="tahoma"><a href="{{ url('/login') }}">Ingreso</a></font></li>
             <li><font size= "5" face="tahoma"><a href="{{ url('/register') }}">Registro</a></font></li>
